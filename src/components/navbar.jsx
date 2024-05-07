@@ -11,7 +11,7 @@ export default function Navbar() {
           <img src={Brunel} alt='Brunel' className='pl-9 self-center cursor-pointer'/>
         </div>  
         <div className='space-x-4'>
-          <button className='self-center py-6 px-10 border-2  border-[#EAEAEA] font-[800] rounded-full hover:bg-[#EAEAEA]'>Get Projects</button>
+          <button className='self-center py-6 px-10 border-2  border-[#EAEAEA]   rounded-full hover:bg-[#EAEAEA]'>Get Projects</button>
           <button className=' self-center py-6 px-10 bg-[#1C1C1C] rounded-full text-white  hover:bg-[#4E4E4E]'>Onboard Talent</button>
         </div>
     </div>

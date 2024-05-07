@@ -1,7 +1,7 @@
 import Footer from "./footer";
 import Hero from "./hero";
-import Questions from "./questions";
 import Congratulations from "./congratulations";
 import Registration from "./registration";
+import { AccordionDemo } from "./faqs";
 
-export {Footer, Hero, Questions, Congratulations, Registration};
+export {Footer, Hero, AccordionDemo, Congratulations, Registration};

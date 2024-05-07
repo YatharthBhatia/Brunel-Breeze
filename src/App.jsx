@@ -1,11 +1,11 @@
 import React from 'react'
-import {Footer, Hero, Questions, Congratulations, Registration} from './components/';
+import {Footer, Hero, AccordionDemo, Congratulations, Registration} from './components/';
 
 const Hello = () => {
   return (
     <>
     <Hero />
-    <Questions />
+    <AccordionDemo />
     <Footer />
     <Congratulations />
     <Registration />
