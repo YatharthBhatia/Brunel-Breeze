@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/homePage";
 import Registration from "./pages/registrationPage";
@@ -16,3 +17,21 @@ function App() {
 }
 
 export default App;
+=======
+import React from 'react'
+import {Footer, Hero, AccordionDemo, Congratulations, Registration} from './components/';
+
+const Hello = () => {
+  return (
+    <>
+    <Hero />
+    <AccordionDemo />
+    <Footer />
+    <Congratulations />
+    <Registration />
+    </>
+  )
+}
+
+export default Hello;
+>>>>>>> origin/main
