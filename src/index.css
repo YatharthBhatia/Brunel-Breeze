@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-['Manrope'];
+  }
+  input {
+    @apply bg-[#efefef] text-xl placeholder:text-stone-500 text-stone-500 py-6 px-8 rounded-full w-full focus:bg-[#f5f8ff] focus:outline;
+  }
+}
+
+.btn-1 {
+  @apply border py-6 px-10 rounded-full hover:bg-[#f1f1f1] transition duration-300;
+}
+.btn-2 {
+  @apply border py-6 px-10 rounded-full bg-black text-white hover:bg-[#4e4e4e] transition duration-300;
+}
